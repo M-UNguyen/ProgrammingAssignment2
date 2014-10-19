@@ -4,7 +4,7 @@
 ## It is assumed that the matrix is always invertible.
 
 
-## makeCacheMatrix creates a special matrix object that can cache its inverse
+## makeCacheMatrix creates a special matrix object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 	inverse_of_x <- NULL
@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
 		getinverse = getinverse)
 }
 
-source("C:\\Users\\Mai Uyen Nguy\\datasciencecoursera\\ProgrammingAssignment2\\cachematrix.R")
 ## cacheSolve computes the inverse of the matrix object returned by makeCacheMatrix above.
 ## If the inverse has already been calculated (and the matrix has not changed), then cacheSolve
 ## retrieves the inverse from the cache.
